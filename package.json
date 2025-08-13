@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source": "src/index.html",
+  "source": "index.html",
   "scripts": {
-    "start": "parcel src/index.html --open --port 8080",
+    "start": "parcel index.html --open --port 8080",
     "build": "parcel build"
   },
   "repository": {
