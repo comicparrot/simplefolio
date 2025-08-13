@@ -6,9 +6,7 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel index.html --open --port 8080",
-    "build": "parcel build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
