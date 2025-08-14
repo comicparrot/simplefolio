@@ -8,6 +8,14 @@
   Readme: https://github.com/cobiwave/simplefolio/README.md
   -
   For business & inquires, contact me -> jacobojavier98@gmail.com
+
+  Run these commands whenever a change is made to html file
+  git add .
+  git commit -m "Update paths for GitHub Pages deployment" && \
+  npx parcel build index.html --public-url ./ && \
+  npx gh-pages -d dist
+
+
 -->
 <!DOCTYPE html>
 <html lang="en" class="sr">
