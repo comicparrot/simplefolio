@@ -538,10 +538,11 @@ var _scrollRevealDefault = parcelHelpers.interopDefault(_scrollReveal);
 var _tiltAnimation = require("./scripts/tiltAnimation");
 var _tiltAnimationDefault = parcelHelpers.interopDefault(_tiltAnimation);
 var _scrollRevealConfig = require("./data/scrollRevealConfig");
+var _stylesScss = require("./styles.scss");
 (0, _scrollRevealDefault.default)((0, _scrollRevealConfig.targetElements), (0, _scrollRevealConfig.defaultProps));
 (0, _tiltAnimationDefault.default)();
 
-},{"./scripts/scrollReveal":"bGCKz","./scripts/tiltAnimation":"fnP06","./data/scrollRevealConfig":"eULZq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bGCKz":[function(require,module,exports) {
+},{"./scripts/scrollReveal":"bGCKz","./scripts/tiltAnimation":"fnP06","./data/scrollRevealConfig":"eULZq","./styles.scss":"gmH49","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bGCKz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function initScrollReveal(targetElements, defaultProps) {
@@ -1021,6 +1022,6 @@ const targetElements = [
     }
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["awEvQ","bB7Pu"], "bB7Pu", "parcelRequire6aa4")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gmH49":[function() {},{}]},["awEvQ","bB7Pu"], "bB7Pu", "parcelRequire6aa4")
 
 //# sourceMappingURL=index.3d214d75.js.map
